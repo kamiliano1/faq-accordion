@@ -4,7 +4,9 @@ import { data } from "@/data/data";
 import Accordion from "@/components/Accordion/Accordion";
 import { useState } from "react";
 export default function CardWrapper() {
-  const [activatedAccordion, setActivatedAccordion] = useState("");
+  const [activatedAccordion, setActivatedAccordion] = useState(
+    "What is Frontend Mentor, and how will it help me?"
+  );
   return (
     <div className="bg-white size-32 p-6 sm:p-8 rounded-[18px] w-full max-w-[600px] m-4 h-auto">
       <div className="flex sm:mb-8">
