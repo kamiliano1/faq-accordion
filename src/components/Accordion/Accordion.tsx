@@ -25,11 +25,11 @@ export default function Accordion({
   };
 
   return (
-    <div className="">
-      <div className="flex justify-between items-center mt-4">
+    <div className="py-5 sm:py-6">
+      <div className="flex justify-between items-center">
         <h2
           onClick={toggleAccordion}
-          className="font-semibold text-darkPurple text-base sm:text-lg hover:text-pink cursor-pointer"
+          className="font-semibold text-darkPurple text-base sm:text-lg hover:text-pink cursor-pointer "
         >
           {title}
         </h2>
@@ -37,9 +37,9 @@ export default function Accordion({
       </div>
       <p
         className={clsx(
-          "text-palePurple text-sm leading-[150%] mt-4 overflow-hidden duration-150 max-h-[0vh]",
+          "text-palePurple text-sm leading-[150%] sm:text-[1rem] overflow-hidden duration-150 max-h-[0vh]",
           {
-            "max-h-[100vh]": isOpen,
+            "max-h-[100vh] mt-6": isOpen,
           }
         )}
       >
