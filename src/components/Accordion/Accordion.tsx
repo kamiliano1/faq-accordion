@@ -37,7 +37,7 @@ export default function Accordion({
       </div>
       <p
         className={clsx(
-          "text-palePurple text-sm leading-[150%] sm:text-[1rem] overflow-hidden duration-150 max-h-[0vh]",
+          "text-palePurple text-sm leading-[150%] sm:text-[1rem]  overflow-hidden duration-150 max-h-[0vh]",
           {
             "max-h-[100vh] mt-6": isOpen,
           }
