@@ -8,8 +8,8 @@ export default function CardWrapper() {
     "What is Frontend Mentor, and how will it help me?"
   );
   return (
-    <div className="bg-white size-32 p-6 sm:p-10 rounded-[18px] w-full max-w-[600px] m-4 sm:m-0 h-auto">
-      <div className="flex sm:mb-8 sm:mt-4">
+    <div className="bg-white size-32 p-6 sm:p-10 sm:pb-4 rounded-[18px] w-full max-w-[600px] m-4 sm:m-0 h-auto">
+      <div className="flex sm:mb-2">
         <Image
           src={StarIcon}
           alt="star icon"
